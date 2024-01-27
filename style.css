@@ -1,0 +1,39 @@
+*{
+   
+    color: white;
+}
+.form{
+    height: 50%;
+    margin: auto;
+    background-color: black;
+    padding: 50px;
+}
+header{
+    font-size: x-large;
+    font-weight: 900;
+
+}
+main>form>input{
+    border-bottom: 2px solid white;
+    outline: none;
+    background-color: black;
+    margin: 10px;
+    
+}
+footer>button{
+    color: black;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+}
+.wid_input{
+    width: 50%;
+}
+input[type="name"]::placeholder{
+    color: white;
+}
+input[type="password"]::placeholder{
+    color: white;
+}
+input[type="email"]::placeholder{
+    color: white;
+}
